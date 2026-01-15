@@ -8,13 +8,20 @@ Oneiro - 你的AI梦境日记伴侣
 
 ### 部署步骤
 
-1. **启用GitHub Pages**
+1. **推送代码到GitHub**
+   ```bash
+   git add .
+   git commit -m "Add privacy policy website for App Store"
+   git push origin main
+   ```
+
+2. **启用GitHub Pages**
    - 进入仓库设置 (Settings)
    - 滚动到 "Pages" 部分
    - Source 选择 "Deploy from a branch"
    - Branch 选择 "main" 分支和 "/ (root)" 文件夹
 
-2. **访问地址**
+3. **访问地址**
    - 部署完成后，访问地址为：`https://[你的用户名].github.io/onerio/`
    - 隐私政策页面：`https://[你的用户名].github.io/onerio/privacy-policy.html`
 
